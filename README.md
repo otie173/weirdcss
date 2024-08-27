@@ -1,5 +1,6 @@
 # weirdcss {}
-**Find out more at https://otie173.ru/weirdcss.**
+**Find out more at https://otie173.ru/weirdcss.**  
+
 ![image](https://github.com/user-attachments/assets/02e3f4df-8145-4382-9d9c-e0272267f7f4)
 
 
