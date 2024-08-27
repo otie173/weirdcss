@@ -1,9 +1,6 @@
 # weirdcss {}
 **Find out more at https://otie173.ru/weirdcss**  
 
-![image](https://github.com/user-attachments/assets/02e3f4df-8145-4382-9d9c-e0272267f7f4)
-
-
 ## What is it?
 The main idea of this project is to make life easier for people who want to create something simple and beautiful, but do not have enough time or desire to understand the intricacies of web development.  
 
