@@ -354,7 +354,6 @@ footer {
   text-align: center;
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: 1px solid var(--card-color);
 }
 
 .footer-text {
