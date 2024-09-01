@@ -339,14 +339,14 @@ footer {
   justify-content: center;
   align-items: center;
   min-height: 50px;
+  white-space: nowrap;
+  overflow-x: auto;
 }
 
 .footer-text {
   margin: 0;
   color: var(--text-color);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: inline-flex;
   align-items: center;
 }
 
