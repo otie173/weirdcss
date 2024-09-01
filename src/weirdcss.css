@@ -37,12 +37,13 @@ body {
 }
 
 .logo-image {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   margin-bottom: 1rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 60%;
 }
 
 h1, h2, p, .subtitle {
@@ -382,6 +383,10 @@ footer a:hover {
     font-size: 1.3rem;
   }
 
+  .logo-image {
+    width: 70%;
+  }
+
   nav ul li {
     margin-left: 15px;
   }
@@ -455,6 +460,10 @@ footer a:hover {
     font-size: 1.2rem;
   }
 
+  .logo-image {
+    width: 80%;
+  }
+
   nav ul li {
     margin-left: 10px;
   }
@@ -494,6 +503,10 @@ footer a:hover {
 
   .logo {
     font-size: 1.1rem;
+  }
+
+  .logo-image {
+    width: 90%;
   }
 
   nav ul li {
