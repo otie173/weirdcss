@@ -8,8 +8,16 @@
   --border-radius: 20px;
 }
 
+@font-face {
+  font-family: 'InteroodFont';
+  src: url('resource/fonts/interood_font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'InteroodFont', 'WMapDefault', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -317,15 +325,18 @@ p + p {
 
 footer {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   margin-top: 2rem;
   font-size: 0.9rem;
   font-weight: 400;
+  white-space: nowrap;
+  overflow-x: auto;
 }
 
 .footer-text {
   margin: 0;
   color: var(--text-color);
+  display: inline-block;
 }
 
 footer a,
@@ -408,12 +419,6 @@ body > :not(main) a:hover {
     padding: 0.6rem 1.2rem;
     min-width: 100px;
   }
-
-  footer {
-    padding: 1.5rem 0;
-    margin-top: 1.5rem;
-    font-size: 0.8rem;
-  }
 }
 
 @media (max-width: 576px) {
@@ -451,6 +456,10 @@ body > :not(main) a:hover {
     padding: 0.5rem 1rem;
     min-width: 90px;
   }
+
+  footer {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 400px) {
@@ -477,11 +486,6 @@ body > :not(main) a:hover {
 
   .subtitle {
     font-size: 0.9rem;
-  }
-
-  .buttons-container {
-    flex-direction: column;
-    align-items: stretch;
   }
 
   .btn {
