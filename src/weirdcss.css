@@ -8,16 +8,8 @@
   --border-radius: 20px;
 }
 
-@font-face {
-  font-family: 'InteroodFont';
-  src: url('resource/fonts/interood_font.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
-  font-family: 'InteroodFont', 'WMapDefault', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -530,5 +522,12 @@ body > :not(main) a:hover {
 
   footer {
     font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px !important;
   }
 }
