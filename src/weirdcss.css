@@ -340,7 +340,6 @@ footer {
   align-items: center;
   min-height: 50px;
   white-space: nowrap;
-  overflow-x: auto;
 }
 
 .footer-text {
@@ -348,6 +347,7 @@ footer {
   color: var(--text-color);
   display: inline-flex;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .footer-text > * {
@@ -485,8 +485,7 @@ body > :not(main) a:hover {
   }
 
   footer {
-    font-size: 0.75rem;
-    padding: 0.6rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -527,8 +526,7 @@ body > :not(main) a:hover {
   }
 
   footer {
-    font-size: 0.7rem;
-    padding: 0.5rem;
+    font-size: 0.6rem;
   }
 }
 
