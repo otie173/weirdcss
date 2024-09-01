@@ -36,6 +36,12 @@ body {
   box-sizing: border-box;
 }
 
+.logo-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 h1, h2, p, .subtitle {
   white-space: normal;
   overflow-wrap: break-word;
