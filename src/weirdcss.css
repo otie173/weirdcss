@@ -260,7 +260,9 @@ p + p {
   align-items: center;
   gap: 1rem;
   margin: 0 auto 2rem;
-  max-width: 400px;
+  max-width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 .btn {
@@ -275,7 +277,9 @@ p + p {
   border-radius: var(--border-radius);
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   cursor: pointer;
+  white-space: nowrap;
   min-width: 120px;
+  max-width: 200px;
 }
 
 .btn-primary {
@@ -442,8 +446,10 @@ footer a:hover {
   }
 
   .btn {
-    font-size: 0.9rem;
-    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+    padding: 0.7rem 1.3rem;
+    min-width: 110px;
+    max-width: 180px;
   }
 
   .footer-text {
@@ -491,8 +497,10 @@ footer a:hover {
   }
 
   .btn {
-    font-size: 0.85rem;
-    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    padding: 0.65rem 1.2rem;
+    min-width: 100px;
+    max-width: 160px;
   }
 
   .footer-text {
@@ -536,8 +544,10 @@ footer a:hover {
   }
 
   .btn {
-    font-size: 0.8rem;
-    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem;
+    min-width: 90px;
+    max-width: 140px;
   }
 
   .footer-text {
