@@ -280,7 +280,7 @@ p + p {
 .btn-outline {
   background-color: var(--card-color);
   color: var(--text-color);
-  border: 2px solid #a0a0a0;
+  border: 2px solid #808080;
 }
 
 .btn-outline:hover {
